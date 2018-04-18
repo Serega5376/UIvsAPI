@@ -35,6 +35,7 @@ public class HttpClient {
 
 	public String executeGet(String url) throws IOException {
 
+
 		HttpEntity responseBody = null;
 		HttpGet rq = new HttpGet(url);
 		try {

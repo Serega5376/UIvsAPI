@@ -33,53 +33,53 @@ public class Response {
 	public static class TimeSeries {
 
 		@JsonProperty("1. open")
-		private String open;
+		private Float open;
 		@JsonProperty("2. high")
-		private String high;
+		private Float high;
 		@JsonProperty("3. low")
-		private String low;
+		private Float low;
 		@JsonProperty("4. close")
-		private String close;
+		private Float close;
 		@JsonProperty("5. volume")
-		private String volume;
+		private Float volume;
 
-		public String getOpen() {
+		public Float getOpen() {
 			return open;
 		}
 
-		public void setOpen(String open) {
+		public void setOpen(Float open) {
 			this.open = open;
 		}
 
-		public String getHigh() {
+		public Float getHigh() {
 			return high;
 		}
 
-		public void setHigh(String high) {
+		public void setHigh(Float high) {
 			this.high = high;
 		}
 
-		public String getLow() {
+		public Float getLow() {
 			return low;
 		}
 
-		public void setLow(String low) {
+		public void setLow(Float low) {
 			this.low = low;
 		}
 
-		public String getClose() {
+		public Float getClose() {
 			return close;
 		}
 
-		public void setClose(String close) {
+		public void setClose(Float close) {
 			this.close = close;
 		}
 
-		public String getVolume() {
+		public Float getVolume() {
 			return volume;
 		}
 
-		public void setVolume(String volume) {
+		public void setVolume(Float volume) {
 			this.volume = volume;
 		}
 	}
